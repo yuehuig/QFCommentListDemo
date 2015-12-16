@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38F81AD77319064CB2C6602D /* libPods-QFCommentListDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A816B60A9B54DA07C0EE949 /* libPods-QFCommentListDemo.a */; };
 		5027F3241C207225004C0CC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027F3231C207225004C0CC3 /* main.m */; };
 		5027F3271C207225004C0CC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027F3261C207225004C0CC3 /* AppDelegate.m */; };
 		5027F32F1C207225004C0CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5027F32E1C207225004C0CC3 /* Assets.xcassets */; };
@@ -17,6 +18,10 @@
 		5027F35C1C20726B004C0CC3 /* QFRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5027F35A1C20726B004C0CC3 /* QFRootViewController.xib */; };
 		5027F3601C207288004C0CC3 /* QFRootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027F35E1C207288004C0CC3 /* QFRootTableViewCell.m */; };
 		5027F3611C207288004C0CC3 /* QFRootTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5027F35F1C207288004C0CC3 /* QFRootTableViewCell.xib */; };
+		5051BFDF1C21B07C00FFBDF4 /* commentList.json in Resources */ = {isa = PBXBuildFile; fileRef = 5051BFDE1C21B07C00FFBDF4 /* commentList.json */; };
+		5051BFE21C21B0FA00FFBDF4 /* QFDateSourceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5051BFE11C21B0FA00FFBDF4 /* QFDateSourceFactory.m */; };
+		5051BFE51C21B15700FFBDF4 /* QFCommentListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5051BFE41C21B15700FFBDF4 /* QFCommentListModel.m */; };
+		5051BFE91C21B2F900FFBDF4 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5051BFE81C21B2F900FFBDF4 /* UITableView+FDTemplateLayoutCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A816B60A9B54DA07C0EE949 /* libPods-QFCommentListDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QFCommentListDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4948B36569EE12BD3303B6 /* Pods-QFCommentListDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFCommentListDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QFCommentListDemo/Pods-QFCommentListDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5027F31F1C207225004C0CC3 /* QFCommentListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFCommentListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5027F3231C207225004C0CC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5027F3251C207225004C0CC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +63,14 @@
 		5027F35D1C207288004C0CC3 /* QFRootTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFRootTableViewCell.h; sourceTree = "<group>"; };
 		5027F35E1C207288004C0CC3 /* QFRootTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFRootTableViewCell.m; sourceTree = "<group>"; };
 		5027F35F1C207288004C0CC3 /* QFRootTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QFRootTableViewCell.xib; sourceTree = "<group>"; };
+		5051BFDE1C21B07C00FFBDF4 /* commentList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = commentList.json; sourceTree = "<group>"; };
+		5051BFE01C21B0FA00FFBDF4 /* QFDateSourceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFDateSourceFactory.h; sourceTree = "<group>"; };
+		5051BFE11C21B0FA00FFBDF4 /* QFDateSourceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFDateSourceFactory.m; sourceTree = "<group>"; };
+		5051BFE31C21B15700FFBDF4 /* QFCommentListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFCommentListModel.h; sourceTree = "<group>"; };
+		5051BFE41C21B15700FFBDF4 /* QFCommentListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFCommentListModel.m; sourceTree = "<group>"; };
+		5051BFE71C21B2F900FFBDF4 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		5051BFE81C21B2F900FFBDF4 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		AFB3A382C8B41D0222F1E4DC /* Pods-QFCommentListDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFCommentListDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QFCommentListDemo/Pods-QFCommentListDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F81AD77319064CB2C6602D /* libPods-QFCommentListDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +99,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04FDABBC4339C0A28082B057 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A816B60A9B54DA07C0EE949 /* libPods-QFCommentListDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DC5D64B83172C2E0AC289FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFB3A382C8B41D0222F1E4DC /* Pods-QFCommentListDemo.debug.xcconfig */,
+				1E4948B36569EE12BD3303B6 /* Pods-QFCommentListDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5027F3161C207225004C0CC3 = {
 			isa = PBXGroup;
 			children = (
+				5051BFE61C21B2EE00FFBDF4 /* Utils */,
 				5027F3571C207242004C0CC3 /* Models */,
 				5027F3561C20723B004C0CC3 /* Views */,
 				5027F3551C207236004C0CC3 /* VC */,
@@ -93,6 +127,8 @@
 				5027F33B1C207225004C0CC3 /* QFCommentListDemoTests */,
 				5027F3461C207225004C0CC3 /* QFCommentListDemoUITests */,
 				5027F3201C207225004C0CC3 /* Products */,
+				3DC5D64B83172C2E0AC289FB /* Pods */,
+				04FDABBC4339C0A28082B057 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,8 +204,22 @@
 		5027F3571C207242004C0CC3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5051BFDE1C21B07C00FFBDF4 /* commentList.json */,
+				5051BFE01C21B0FA00FFBDF4 /* QFDateSourceFactory.h */,
+				5051BFE11C21B0FA00FFBDF4 /* QFDateSourceFactory.m */,
+				5051BFE31C21B15700FFBDF4 /* QFCommentListModel.h */,
+				5051BFE41C21B15700FFBDF4 /* QFCommentListModel.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		5051BFE61C21B2EE00FFBDF4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5051BFE71C21B2F900FFBDF4 /* UITableView+FDTemplateLayoutCell.h */,
+				5051BFE81C21B2F900FFBDF4 /* UITableView+FDTemplateLayoutCell.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5027F34C1C207225004C0CC3 /* Build configuration list for PBXNativeTarget "QFCommentListDemo" */;
 			buildPhases = (
+				60188460F4444BD99F542E2A /* Check Pods Manifest.lock */,
 				5027F31B1C207225004C0CC3 /* Sources */,
 				5027F31C1C207225004C0CC3 /* Frameworks */,
 				5027F31D1C207225004C0CC3 /* Resources */,
+				E39DCE972BFEF1686B537487 /* Embed Pods Frameworks */,
+				77434C28CC8C6A7906D24D2D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,6 +332,7 @@
 				5027F35C1C20726B004C0CC3 /* QFRootViewController.xib in Resources */,
 				5027F3321C207225004C0CC3 /* LaunchScreen.storyboard in Resources */,
 				5027F3611C207288004C0CC3 /* QFRootTableViewCell.xib in Resources */,
+				5051BFDF1C21B07C00FFBDF4 /* commentList.json in Resources */,
 				5027F32F1C207225004C0CC3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,11 +353,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		60188460F4444BD99F542E2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77434C28CC8C6A7906D24D2D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QFCommentListDemo/Pods-QFCommentListDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E39DCE972BFEF1686B537487 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QFCommentListDemo/Pods-QFCommentListDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5027F31B1C207225004C0CC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5051BFE51C21B15700FFBDF4 /* QFCommentListModel.m in Sources */,
+				5051BFE91C21B2F900FFBDF4 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				5051BFE21C21B0FA00FFBDF4 /* QFDateSourceFactory.m in Sources */,
 				5027F3271C207225004C0CC3 /* AppDelegate.m in Sources */,
 				5027F3241C207225004C0CC3 /* main.m in Sources */,
 				5027F3601C207288004C0CC3 /* QFRootTableViewCell.m in Sources */,
@@ -436,6 +541,7 @@
 		};
 		5027F34D1C207225004C0CC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB3A382C8B41D0222F1E4DC /* Pods-QFCommentListDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QFCommentListDemo/Info.plist;
@@ -447,6 +553,7 @@
 		};
 		5027F34E1C207225004C0CC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4948B36569EE12BD3303B6 /* Pods-QFCommentListDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QFCommentListDemo/Info.plist;
@@ -523,6 +630,7 @@
 				5027F34E1C207225004C0CC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5027F34F1C207225004C0CC3 /* Build configuration list for PBXNativeTarget "QFCommentListDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +639,7 @@
 				5027F3511C207225004C0CC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5027F3521C207225004C0CC3 /* Build configuration list for PBXNativeTarget "QFCommentListDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +648,7 @@
 				5027F3541C207225004C0CC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
